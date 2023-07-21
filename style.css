@@ -1,0 +1,176 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https: //stijndv.com/fonts/Eudoxus-Sans.css');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/*  
+body {
+  height: 1024px;
+  width: 904px;
+}
+*/
+header {
+  background-color: black;
+  height: 875px;
+  width: auto;
+}
+
+.navbar {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 12px;
+}
+
+.link {
+  list-style: none;
+  display: inline-flex;
+  gap: 24px;
+}
+
+.link>li a {
+  color: white;
+  font-size: 16px;
+}
+
+.plugin {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 128px 0px;
+  gap: 8px;
+}
+
+.plug {
+  justify-content: center;
+  display: flex;
+  padding: 0px 8px 0px 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+  gap: 8px;
+
+}
+
+.plug a {
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 700;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0px 8px;
+  letter-spacing: -0.14px;
+  border-radius: 20px;
+  background: #383838;
+}
+
+.plug p {
+  font-size: 14px;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
+  color: #EDEDED;
+  line-height: 20px;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 36px;
+  align-items: center;
+  position: relative;
+  bottom: 80px;
+}
+
+.cont-1 {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #FFF;
+  font-family: 'Eudoxus', sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: -1.28px;
+  width: 904px;
+
+}
+
+span {
+  color: #EDB01A;
+}
+
+.cont-1 p {
+  color: var(--gray-300, #D0D5DD);
+  font-family: 'Satoshi', sans-serif;
+  font-size: 18px;
+  height: auto 56px;
+  font-weight: 500;
+  margin: auto;
+  width: 588px;
+  margin-top: 20px;
+}
+
+
+.btn {
+  display: flex;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 8px;
+}
+
+.cta1 {
+  border-radius: 12px;
+  background: #EDB01A;
+  padding: 12px 24px;
+}
+
+.btn a {
+  font-family: 'Satoshi', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+  letter-spacing: -0.16px;
+}
+
+.cta_white {
+  background: white;
+  border-radius: 12px;
+  padding: 12px 24px;
+}
+
+.btn img {
+  position: relative;
+  top: 2px;
+}
+
+.format {
+  color: var(--gray-200, #E4E7EC);
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 20px;
+  letter-spacing: -0.14px;
+
+}
