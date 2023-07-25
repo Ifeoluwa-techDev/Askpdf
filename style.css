@@ -19,15 +19,21 @@ header {
   background-color: black;
   height: 875px;
   width: auto;
+  position: relative;
 }
-
+.background{
+  top: -100px;
+  width: 100%;
+  position: absolute;
+}
 .navbar {
   font-family: 'Satoshi', sans-serif;
   font-weight: 500;
   font-size: 16px;
-  margin-top: 10px;
-  padding-right: 10%;
-  padding-left: 10%;
+  /* margin-top: 10px; */
+  /* padding-right: 10%;
+  padding-left: 10%; */
+  padding: 30px;
 }
 
 .hero {
